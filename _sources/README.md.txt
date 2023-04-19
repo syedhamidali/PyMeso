@@ -4,7 +4,7 @@ An implementation of the linear least squares derivative method for calculating 
 Additionally, a method for simulating rankine vortices has been provided and was used in the verification process for the LLSD method.
 
 ### References
-- LLSD Azimuthal Shear Technique ([Miller et al. 2013](https://doi.org/10.1175/WAF-D-12-00065.1))
+Miller, M. L., Lakshmanan, V., & Smith, T. M. (2013). An Automated Method for Depicting Mesocyclone Paths and Intensities, Weather and Forecasting, 28(3), 570-585. doi: https://doi.org/10.1175/WAF-D-12-00065.1
 
 ### Dependencies
 - [Py-ART](https://github.com/ARM-DOE/pyart/)
@@ -16,12 +16,13 @@ Additionally, a method for simulating rankine vortices has been provided and was
 To install PyMeso, you can either download and unpack the zip file of the source code or use git to checkout the repository:
 
 ```
-git clone git@github.com:jordanbrook/PyMeso.git
+pip install git+https://github.com/jordanbrook/PyMeso.git
 ```
 
 To install in your home directory, use:
 
 ```
+git clone https://github.com/jordanbrook/PyMeso.git
 python setup.py install --user
 ```
 

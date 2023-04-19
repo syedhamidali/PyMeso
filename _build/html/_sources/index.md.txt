@@ -23,12 +23,13 @@ Miller, M. L., Lakshmanan, V., & Smith, T. M. (2013). An Automated Method for De
 To install PyMeso, you can either download and unpack the zip file of the source code or use git to checkout the repository:
 
 ```
-git clone git@github.com:jordanbrook/PyMeso.git
+pip install git+https://github.com/jordanbrook/PyMeso.git
 ```
 
 To install in your home directory, use:
 
 ```
+git clone https://github.com/jordanbrook/PyMeso.git
 python setup.py install --user
 ```
 
